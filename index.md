@@ -18,17 +18,17 @@ There is an emerging interest in edge implementation of deep neural networks, bu
 
 We hope to provide a platform to establish relationship and exchange of ideas between the industry and the academia through technical talks and poster discussions.
 
-We will admit 100 participants only, and the event will appear physically in Montreal downtown. We encourage participants to submit an extended abstract to remain in priority for registration. Selected extended abstracts will be published in a dedicated workshop proceedings. The 1st Edge Intelligence Workshop Proceedings can be downloaded freely from [here](https://www.gerad.ca/en/papers/G-2020-23).
+We will admit 100 participants only, and the event will appear physically in Montreal downtown. We encourage participants to submit an abstract to remain in priority for registration. Selected abstracts will be able to fast-track their work to the [ICML Hardware Aware Efficient Training (HAET)](https://haet2022.github.io/). The 1st Edge Intelligence Workshop Proceedings can be downloaded freely from [here](https://www.gerad.ca/en/papers/G-2020-23).
 
 ### Important Dates
 
 - <span style="color:red">REGISTRATION WILL BE OPEN SOON</span>.
-- 29 April: extended abstract submission deadline. All extended abstracts must be submitted in NeurIPS 2022 [format](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles).
-- 6 May: Reviewers feedback acceptance/rejection decision.
-- 7 May: Registration deadline.
+- 20 May: Abstract submission deadline.
+- 27 June: Edge Intelligence Workshop  day one.
+- 28 June: Edge Intelligence Workshop  day two.
 
-### Call for Paper
+### Call for Abstracts
 
-Authors should prepare extended abstracts in the NeurIPS [format](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles) not exceeding 4 pages (excluding references). The accepted extended abstracts will be given the opportunity to be reformatted as a full paper. Selected papers will appear in a proceedings, in which the authors will keep the copyright.
+Authors should submit their work only in the form of an abtract. Selected extended abstracts will be given the opportunity to be fast-tracked as 4-page papers to the [ICML Hardware Aware Efficient Training (HAET)](https://haet2022.github.io/).
 
 Submission link will be available soon.

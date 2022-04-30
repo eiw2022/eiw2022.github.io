@@ -133,8 +133,6 @@ navigation_header:
   url: /Registration/
 - title: Venue
   url: /Venue/
-- title: Proceedings
-  url: /Proceedings/
 
 
 navigation_footer:

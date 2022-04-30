@@ -9,7 +9,9 @@ excerpt: "s"
 aside: false
 ---
 
-The presentation files of the invited speakers and the pdf file of the presented posters will appear on this page after the event.
+To be announced soon.
+
+<!-- The presentation files of the invited speakers and the pdf file of the presented posters will appear on this page after the event.
 
 
 <style>
@@ -73,5 +75,5 @@ tr:nth-child(even) {
     <td class="name">Presenter03</td>
     <td class="title">Title03</td>
   </tr>
-</table>
+</table> -->
 
