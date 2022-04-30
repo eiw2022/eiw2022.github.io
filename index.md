@@ -18,7 +18,7 @@ There is an emerging interest in edge implementation of deep neural networks, bu
 
 We hope to provide a platform to establish relationship and exchange of ideas between the industry and the academia through technical talks and poster discussions.
 
-We will admit 100 participants only, and the event will appear physically in Montreal downtown. We encourage participants to submit an abstract to remain in priority for registration. Selected abstracts will be able to fast-track their work to the [ICML Hardware Aware Efficient Training (HAET)](https://haet2022.github.io/). The 1st Edge Intelligence Workshop Proceedings can be downloaded freely from [here](https://www.gerad.ca/en/papers/G-2020-23).
+We will admit 100 participants only, and the event will appear physically in Montreal downtown. We encourage participants to submit an abstract to remain in priority for registration. Selected abstracts will be able to fast-track their work to the [ICML Hardware Aware Efficient Training workshop (HAET)](https://haet2022.github.io/). The 1st Edge Intelligence Workshop Proceedings can be downloaded freely from [here](https://www.gerad.ca/en/papers/G-2020-23).
 
 ### Important Dates
 
@@ -29,6 +29,6 @@ We will admit 100 participants only, and the event will appear physically in Mon
 
 ### Call for Abstracts
 
-Authors should submit their work only in the form of an abtract. Selected extended abstracts will be given the opportunity to be fast-tracked as 4-page papers to the [ICML Hardware Aware Efficient Training (HAET)](https://haet2022.github.io/).
+Authors should submit their work only in the form of an abtract. Selected extended abstracts will be given the opportunity to be fast-tracked as 4-page papers to the [ICML Hardware Aware Efficient Training workshop (HAET)](https://haet2022.github.io/).
 
 Submission link will be available soon.
