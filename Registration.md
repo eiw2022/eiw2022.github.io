@@ -11,6 +11,6 @@ aside: false
 
 Online registration here. <span style="color:red">REGISTRATION WILL BE OPEN SOON</span>
 
-* Regular fee: $500
+* Regular fee: 500 CAD
 
-* Student fee: $100 
+* Student fee: 100 CAD
