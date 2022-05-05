@@ -1,3 +1,5 @@
+JEKYLL_ENV=production bundle exec jekyll build
+
 rm -rf ~/Downloads/eiw2022.github.io/*
 cp -r ./_site/* ~/Downloads/eiw2022.github.io
 cd ~/Downloads/eiw2022.github.io
