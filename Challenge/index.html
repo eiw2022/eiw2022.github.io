@@ -25,7 +25,7 @@
 <meta name="twitter:site" content="@DavidDarnes" />
 <meta name="twitter:creator" content="@DavidDarnes" />
 <script type="application/ld+json">
-{"@type":"WebPage","author":{"@type":"Person","name":"DavidDarnes"},"url":"/Venue/","description":"s","image":"/assets/default-social-image.png","headline":"Edge Intelligence Workshop","@context":"https://schema.org"}</script>
+{"@type":"WebPage","author":{"@type":"Person","name":"DavidDarnes"},"url":"/Challenge/","description":"s","image":"/assets/default-social-image.png","headline":"Edge Intelligence Workshop","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -152,7 +152,7 @@
 
       
 
-      <li class="item  item--nav">
+      <li class="item  item--nav  item--current">
         <a href="/Challenge/">Challenge</a>
       </li>
     
@@ -173,7 +173,7 @@
 
       
 
-      <li class="item  item--nav  item--current">
+      <li class="item  item--nav">
         <a href="/Venue/">Venue</a>
       </li>
     
@@ -241,12 +241,39 @@
 
     <h1></h1>
 
-    <p>The event will take place at Centre Mont-royal. (2200 Mansfield St)</p>
+    <h2 id="competition">Competition</h2>
 
-<h3 id="venue-map">Venue Map</h3>
+<p>In parallel with the workshop, we organize a competition. It is not required to participate in the competition to have a paper accepted at the workshop.</p>
 
-<div class="map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vg7Z-fsGrSwoFs22b4LVtjwhbM4ZWDcf" title="Venue"></iframe></div>
+<h2 id="main-guidelines">Main Guidelines</h2>
 
+<p>The aim of the competition is to achieve the best possible accuracy in a classification task given a limited training time. The best three teams will receive awards and will be invited to present their solution during the workshop.</p>
+
+<p>In more detail, the training will be performed on an Nvidia V100 GPU with 32GB memory, running with an Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz processor, with 12GB of RAM memory, with an allowed training time of 10 minutes.</p>
+
+<p>The competition will be preceded by an open trial phase where participants can stress their methods using a publicly available dataset (CIFAR-10). But the final dataset used for ranking the submissions will remain secret.</p>
+
+<p>To participate, the candidates must send a pdf describing their method with their code as supplementary material (more details in the next section). The description can be short (1 page is enough).</p>
+
+<h2 id="details-and-important-dates">Details and Important Dates</h2>
+
+<p>During the trial phase, participants can download all needed code from <a href="https://github.com/eghouti/HAET-2022-competition-baseline-code">here</a>. For this phase, contestants can use the provided code with CIFAR10 dataset and should try to achieve the best possible accuracy using limited training time.</p>
+
+<p>Once the participants have their submission ready, they can submit it using the easychair link for the challenge (available soon). Before the workshop, submissions will be evaluated using a different dataset (unknown to the participants). The submissions will be evaluated by running the code for a duration of 10 minutes. The evaluation consists in classifying 10 classes with inputs made of 32 by 32 RGB images. 500 inputs per class are available during training and 100 per class for test. Note that during the evaluation, we consider data pre-processing, network architecture, and the way the network is trained (optimizer, learning rate… etc) the participant will provide, and we only change the input training and test dataset.</p>
+
+<p>As the purpose of the competition is to evaluate the ability to quickly train systems, it is forbidden to rely on pre-trained models or additional data. Ranked submissions will be checked and discarded if they do so.</p>
+
+<p>Note that during evaluation, we will kill the running process after 10 minutes of training. So participants are advised to save their model regularly to avoid missing the deadline.</p>
+
+<p>Methods will be ranked according to the accuracy they achieve after 10 minutes of training.</p>
+
+<h2 id="dates">Dates</h2>
+
+<ul>
+  <li>Competition submission deadline: 1 Sept. 2022</li>
+  <li>Evaluations will be performed by: 15 Sept. 2022</li>
+  <li>Workshop: 19 Sept. 2022</li>
+</ul>
 
 
   </article>
