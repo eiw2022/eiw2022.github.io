@@ -250,73 +250,284 @@
 
     <h1>Scientific Program</h1>
 
-    <p>To be announced soon.</p>
-
-<!-- The presentation files of the invited speakers and the pdf file of the presented posters will appear on this page after the event.
-
+    <p>The presentation files of the invited speakers and the pdf file of the presented posters will appear on this page after the event.</p>
 
 <style>
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+  width: 190%;
+  border: 1.5px solid #787878;
   font-family: arial, sans-serif;
-  font-size: 5pt;
-  width: 140%;
+  font-size: 2pt;
+  width: 180%;
 }
 
 th, td {
   text-align: left;
-  padding: 16px;
+  padding: 3px;
+  font-size: 9pt;
+
+}
+
+.day {
+/*background-color: rgba(243,190,138,0.9);*/
+font-size: 12pt;
+text-align: center;
+}
+
+.break {
+  font-size: 11pt;
+background-color: rgba(243,190,138,1.0);
+text-align: center;
 }
 
 .time {
-border-right: solid 1px #ddd;
-width: 20%;
-}
-.name {
-border-right: solid 1px #ddd;
-width: 20%;
-}
-.title {
-width: 80%;
+/*background-color: #D3D3D3;*/
+background-color: rgba(243,190,138,0.25);
+border: solid 1px #ddd;
+width: 10%;
+
 }
 
-tr:nth-child(even) {
-  background-color: #E9F7EF;
+.timeB {
+background-color: rgba(243,190,138,1.0);
+
+border: solid 1px #ddd;
+width: 10%;
+
 }
+.name {
+border: solid 1px #ddd;
+width: 15%;
+}
+
+.keynote {
+background-color: rgba(255, 255, 143,1.0);
+border: solid 1px #ddd;
+width: 15%;
+}
+
+.title {
+border: solid 1px #ddd;
+width: 60%;
+}
+
+.titleK {
+  background-color: rgba(255, 255, 143,1.0);
+border: solid 1px #ddd;
+width: 60%;
+}
+.chair {
+/*background-color: #D3D3D3;*/
+background-color: rgba(243,190,138,0.25);
+border: solid 1px #ddd;
+width: 15%;
+}
+
+/*tr:nth-child(even) {
+  background-color: rgba(243,190,138,0.5);
+}*/
 </style>
 
 <table>
   <tr>
-    <th colspan="2"> <b> June 2022 </b></th>
+    <th class="day" colspan="4"> <b> Monday September 19 </b></th>
   </tr>
   <tr>
-    <td class="time"> <b> 08:30-09:00 </b></td>
-    <td class="name">Presenter01</td>
-    <td class="title">Title01</td>
+    <td class="timeB"> <b> 08:00-08:30 </b></td>
+    <td class="break" colspan="3">Breakfast</td>
+  </tr>
+
+  <tr>
+    <td class="time"> <b> 08:30-09:30 </b></td>
+    <td class="keynote">Keynote: Diana Marculescu</td>
+    <td class="titleK">Machine Learning Based Post-Shannon Cognition Communications</td>
+    <td class="chair" rowspan="2"> </td>
   </tr>
   <tr>
-    <td class="time"> <b> 09:00-09:30 </b></td>
-    <td class="name">Presenter02</td>
-    <td class="title">Title02</td>
-  </tr>
-   <tr>
     <td class="time"> <b> 09:30-10:00 </b></td>
-    <td class="name">Presenter03</td>
-    <td class="title">Title03</td>
+    <td class="name">James Clark</td>
+    <td class="title">What is lost when networks are compressed?</td>
   </tr>
     <tr>
-    <td class="time"> <b> 10:00-10:30 </b></td>
-    <td class="title" colspan="2">Coffee Break</td>
+    <td class="timeB"> <b> 10:00-10:30 </b></td>
+    <td class="break" colspan="3">Coffee Break</td>
   </tr>
    <tr>
     <td class="time"> <b> 10:30-11:00 </b></td>
-    <td class="name">Presenter03</td>
-    <td class="title">Title03</td>
+    <td class="name">Vahid Partovi Nia</td>
+    <td class="title">Edge implementa/on of deep models</td>
+    <td class="chair" rowspan="3"> </td>
   </tr>
-</table> -->
+
+   <tr>
+    <td class="time"> <b> 11:00-11:30 </b></td>
+    <td class="name">Mark Coates</td>
+    <td class="title">Efficient Bayesian Network Architecture Search for Graph Neural Networks</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 11:30-12:00 </b></td>
+    <td class="name">Ehsan Saboori</td>
+    <td class="title">Running 2bit quantized CNN models on Arm CPUs</td>
+  </tr>
+
+  <tr>
+    <td class="timeB"> <b> 12:00-1:00 </b></td>
+    <td class="break" colspan="3">Lunch</td>
+  </tr>
+   <tr>
+    <td class="time"> <b> 01:00-02:00 </b></td>
+    <td class="keynote">Keynote: Evgeni Gousev </td>
+    <td class="titleK"></td>
+    <td class="chair" rowspan="3"> <!-- James Clark --></td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 02:00-02:30 </b></td>
+    <td class="name">Muthucumaru Maheswaran</td>
+    <td class="title">JAMScript: A Programming Language for Edge Oriented Mobile Internet of Things</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 02:30-03:00 </b></td>
+    <td class="name">Shahrokh Valaee</td>
+    <td class="title">Cooperative Location Estimation using Federated Learning</td>
+  </tr>
+
+  <tr>
+    <td class="timeB"> <b> 03:00-03:30 </b></td>
+    <td class="break" colspan="3">Coffee Break</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 03:30-04:00 </b></td>
+    <td class="name">Rachel E. Bouserhal</td>
+    <td class="title">Hearables and their potential as a tool for early disease detection</td>
+    <td class="chair" rowspan="4"> </td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 04:00-04:30 </b></td>
+    <td class="name">Dounia Lakhmiri</td>
+    <td class="title">A Stochastic Proximal Method for Nonsmooth Regularized Finite Sum Optimization</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 04:30-5:00 </b></td>
+    <td class="name">Masoud Asgharian</td>
+    <td class="title"></td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 05:00-05:30 </b></td>
+    <td class="name">Michael Rabbat</td>
+    <td class="title"></td>
+  </tr>
+
+</table>
+
+<p><br /></p>
+
+<table>
+  <tr>
+    <th class="day" colspan="4"> <b> Monday September 19 </b></th>
+  </tr>
+  <tr>
+    <td class="timeB"> <b> 08:00-08:30 </b></td>
+    <td class="break" colspan="3">Breakfast</td>
+  </tr>
+
+  <tr>
+    <td class="time"> <b> 08:30-09:00 </b></td>
+    <td class="keynote">Keynote: Wen Tong</td>
+    <td class="title">Machine Learning Based Post-Shannon Cognition Communications</td>
+    <td class="chair" rowspan="2"><!-- Warren Gross --></td>
+  </tr>
+  <tr>
+    <td class="time"> <b> 09:30-10:00 </b></td>
+    <td class="name">Brett Meyer</td>
+    <td class="title">Transforming Intelligence for the Edge:
+Challenges and Opportunities in Modeling, Optimization, and Deployment</td>
+  </tr>
+    <tr>
+    <td class="timeB"> <b> 10:00-10:30 </b></td>
+    <td class="break" colspan="3">Coffee Break</td>
+  </tr>
+   <tr>
+    <td class="time"> <b> 10:30-11:00 </b></td>
+    <td class="name">Yunaho Yu</td>
+    <td class="title">Challenges for Edge Device Machine Learning Platform</td>
+    <td class="chair" rowspan="3"><!--  Ehsan Saboori--></td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 11:00-11:30 </b></td>
+    <td class="name">Naoya Onizawa</td>
+    <td class="title">Fast-Converging Simulated Annealing for Ising Models Based on Integral</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 11:30-12:00 </b></td>
+    <td class="name">Ghouthi Boukli Hacene</td>
+    <td class="title">DNN Quantization and acceleration for training and inference</td>
+  </tr>
+
+  <tr>
+    <td class="timeB"> <b> 12:00-1:00 </b></td>
+    <td class="break" colspan="3">Lunch</td>
+  </tr>
+   <tr>
+    <td class="time"> <b> 01:00-02:00 </b></td>
+    <td class="keynote">Keynote: Song Han</td>
+    <td class="titleK"></td>
+    <td class="chair" rowspan="3"> <!-- Brett Meyer--></td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 02:00-02:30 </b></td>
+    <td class="name">Christophe Dubach</td>
+    <td class="title">Very High-Level Synthesis of Neural Networks Accelerators for FPGAs</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 02:30-03:00 </b></td>
+    <td class="name">Francois Leduc-Primeau</td>
+    <td class="title"></td>
+  </tr>
+
+  <tr>
+    <td class="timeB"> <b> 03:00-03:30 </b></td>
+    <td class="break" colspan="3">Coffee Break</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 03:30-04:00 </b></td>
+    <td class="name">Yvon Savaria</td>
+    <td class="title">Applications of Edge Intelligence, Applications, Lessons Learned and Platforms</td>
+    <td class="chair" rowspan="4"> </td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 04:00-04:30 </b></td>
+    <td class="name">Andreas Moshovos</td>
+    <td class="title"></td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 04:30-5:00 </b></td>
+    <td class="name">Pascal Poupart</td>
+    <td class="title">Uncertainty Aware Federated Learning</td>
+  </tr>
+
+   <tr>
+    <td class="time"> <b> 05:00-05:30 </b></td>
+    <td class="name">Sarath Chandar</td>
+    <td class="title"></td>
+  </tr>
+
+</table>
 
 
 
