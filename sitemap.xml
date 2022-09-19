@@ -51,4 +51,8 @@
 <url>
 <loc>http://localhost:4000/blog/page2/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/assets/Proceedings.pdf</loc>
+<lastmod>2022-09-19T01:45:37+01:00</lastmod>
+</url>
 </urlset>
